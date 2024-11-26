@@ -1,0 +1,18 @@
+.parent {
+  padding: 30px;
+  background-color: bisque;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  height: 300px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.child {
+  border: 2px solid rgb(31, 31, 119, 0.875);
+  background: rgba(166, 173, 137, 0.875);
+  padding: 20px;
+  font-size: 40px;
+  /* margin: 10px 0; */
+}
